@@ -72,7 +72,7 @@
 
 /* INIZIO PARTE 7 */
 .background-dark {
-    background-color: rgba(32, 32, 32, 0.726);
+    background-color: rgba(23, 23, 23, 0.868);
 }
 /* CREO RIGA CON 5 COLONNE */
 .row-5 {
@@ -81,15 +81,11 @@
 }
 /* 1 COLONNA CHE OCCUPA 2 FLEX GROW (2 VOLTE TANTO RISPETTO LE ALTRE) */
 .col-5-p{
-    flex-grow: 2;
-    height: 600px;
-    background-color:rgb(222, 91, 113);
+    width: calc(100%/6 *2);
 }
 /* 4 COLONNE CHE OCCUPANO LO SPAZIO RESTANTE SUDDIVIDENDOLO GRAZIE AL FLEX-GROW 1*/
 .col-5-b{
-    flex-grow: 1;
-    height: 600px;
-    background-color:rgb(46, 170, 241);
+    width: calc(100%/6);
 }
 /* FINE PARTE 7 */
 
@@ -106,44 +102,16 @@
 
 
 /* UTILITY */
-/* BORDERS */
-.left-b {
-    border-left: 2px dashed black;;
-}
-
-.right-b {
-    border-right: 2px dashed black;;
-}
-
-.top-b {
-    border-top: 2px dashed black;
-}
-
-.bottom-b {
-    border-bottom: 2px dashed black;;
-}
-
-.left-b-w {
-    border-left: 2px dashed white;
-}
-
-.right-b-w {
-    border-right: 2px dashed white;;
-}
-
-.top-b-w {
-    border-top: 2px dashed white;
-}
-
-.bottom-b-w {
-    border-bottom: 2px dashed white;;
-}
 
 /* TEXT ALLIGNEMENT */
 .center-text {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.collapse-left{
+    justify-content: flex-start;
 }
 
 .left-text {
@@ -155,6 +123,11 @@
     text-align: right;
     align-items: center;
     padding-right: 10px;
+}
+
+.column-flex {
+    display: flex;
+    flex-direction: column;
 }
 
 /* PADDING TOP AND BOTTOM 50PX */
@@ -208,6 +181,10 @@ a {
     margin: 0 15px;
 }
 
+.margin-top-20{
+    margin-top: 20px;
+}
+
 .white-t {
     color: white;
 }
@@ -216,6 +193,10 @@ a {
     padding: 10px;
     border-radius: 20px;
     background-color: white;
+}
+
+.padding-top-40 {
+    padding-top: 52px;
 }
 
 .b-style-2 {
@@ -272,6 +253,19 @@ p {
     margin-top: 20px;
 }
 
-.white-border {
-    border-top:2px solid rgba(57, 149, 255, 0.769);
+.img-size-small{
+    width: 30px;
 }
+
+.white-border {
+    border-top:2px solid rgba(0, 86, 214, 0.772);
+}
+
+.blue-text{
+    color: rgba(0, 86, 214, 0.772);
+}
+
+.filter {
+    filter: brightness(0) invert(1);
+}
+
