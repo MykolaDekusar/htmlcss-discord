@@ -119,7 +119,7 @@ header {
 /* INIZIO PARTE 8 */
 /* CREO FOOTER */
 footer {
-    border-top: 2px solid white;
+    
 }
 
 /* CREO RIGA E LA MODELLO */
@@ -202,4 +202,5 @@ footer {
 /* PADDING TOP 30PX */
 .py-30-t {
     padding-top: 30px;
+    border-top: 2px solid white;
 }
