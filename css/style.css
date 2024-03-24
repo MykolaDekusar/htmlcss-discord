@@ -82,19 +82,10 @@
 /* 1 COLONNA CHE OCCUPA 2 FLEX GROW (2 VOLTE TANTO RISPETTO LE ALTRE) */
 .col-5-p{
     width: calc(100%/6 *2);
-<<<<<<< HEAD
-=======
-    height: 600px;
->>>>>>> 4c41ffd738a9707acddaefd5714c0fd4bf0916db
 }
 /* 4 COLONNE CHE OCCUPANO LO SPAZIO RESTANTE SUDDIVIDENDOLO GRAZIE AL FLEX-GROW 1*/
 .col-5-b{
     width: calc(100%/6);
-<<<<<<< HEAD
-=======
-    height: 600px;
-    background-color:rgb(46, 170, 241);
->>>>>>> 4c41ffd738a9707acddaefd5714c0fd4bf0916db
 }
 /* FINE PARTE 7 */
 
@@ -267,9 +258,8 @@ p {
 
 .img-size-small{
     width: 30px;
-<<<<<<< HEAD
-=======
 }
+
 
 .white-border {
     border-top:2px solid rgba(0, 86, 214, 0.772);
@@ -281,7 +271,6 @@ p {
 
 .filter {
     filter: brightness(0) invert(1);
->>>>>>> 4c41ffd738a9707acddaefd5714c0fd4bf0916db
 }
 
 .white-border {
@@ -304,5 +293,3 @@ p {
     background-size: 700px;
     background-position-y: 2px;
 }
-
-
