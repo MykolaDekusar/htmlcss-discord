@@ -160,9 +160,7 @@
     padding: 0 100px;
 }
 
-.margin-b-20{
-    margin-bottom: 20px;
-}
+
 
 /* LIST STYLE */
 
@@ -191,6 +189,10 @@ a {
 
 .margin-top-20{
     margin-top: 20px;
+}
+
+.margin-b-20{
+    margin-bottom: 20px;
 }
 
 .white-t {
@@ -227,6 +229,7 @@ header {
 .jumbo {
     background-image: url('../img/jumbo.png');
     background-size: cover;
+    width: 100%;
 }
 
 .text-align-center {
@@ -281,11 +284,11 @@ p {
 }
 
 .white-border {
-    border-top:2px solid rgba(0, 86, 214, 0.772);
+    border-top:2px solid rgba(0, 53, 133, 0.772);
 }
 
 .blue-text{
-    color: rgba(0, 86, 214, 0.772);
+    color: rgba(57, 149, 255, 0.769);
 }
 
 .filter {
